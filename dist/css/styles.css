@@ -4035,6 +4035,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: #000;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4473,38 +4474,38 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #000;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #000;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(29, 25, 25, 0.75);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(29, 25, 25, 0.25);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(29, 25, 25, 0.25);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #000;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: rgba(29, 25, 25, 0.5);
+  border-color: rgba(255, 255, 255, 0.129, 25, 25, 0.1);
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-dark .navbar-text {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(29, 25, 25, 0.75);
 }
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #000;
 }
 
 .card {
@@ -7843,11 +7844,12 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   /* background-image: url("img_tree.gif"), url("paper.gif"); */
-  background-image: url("dist/assets/home.jpg") !important;
-  /* background-size: cover; */
+  /* background-image: url("dist/assets/home.jpg") !important; */
+  background-size: cover;
   /* height: fit-content; */
   /* background-size: auto; */
   /* background-position: center; */
+  background-color: #f5ebe0;
   /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
 }
 

@@ -3054,8 +3054,8 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #ba9d33;
+  border-color: #ba9d33;
 }
 
 .btn-secondary {
@@ -3269,27 +3269,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #0d6efd;
-  border-color: #0d6efd;
+  color: #ba9d33;
+  border-color: #ba9d33;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #ba9d33;
+  border-color: #ba9d33;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #ba9d33;
+  border-color: #ba9d33;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #0d6efd;
+  color: #ba9d33;
   background-color: transparent;
 }
 
@@ -3470,7 +3470,7 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #0d6efd;
+  color: #ba9d33;
   text-decoration: underline;
 }
 .btn-link:hover {
@@ -4028,7 +4028,9 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
+  width: 100%;
+  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -7844,7 +7846,7 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   /* background-image: url("img_tree.gif"), url("paper.gif"); */
-  /* background-image: url("dist/assets/home.jpg") !important; */
+  background-image: url("dist/assets/home.jpg");
   background-size: cover;
   /* height: fit-content; */
   /* background-size: auto; */

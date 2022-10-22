@@ -7843,8 +7843,8 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   /* background-image: url("img_tree.gif"), url("paper.gif"); */
-  background-image: url("home.jpg") !important;
-  background-size: cover;
+  background-image: url("dist/assets/home.jpg") !important;
+  /* background-size: cover; */
   /* height: fit-content; */
   /* background-size: auto; */
   /* background-position: center; */
